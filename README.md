@@ -15,8 +15,10 @@ scientific knowledge animations, especially for math and physics etc. To make it
 Pencil system; another reason is that it's native to Drawing which makes it perfect choice to add drawing 
 functionality. 
 
-The math function plotting is super fast and worry free to animate in large scale. Both explicit and parameter 
+The math function plotting is pretty fast unless you give too much resolution. Both explicit and parameter 
 functions are supported. It automatically detect variables and parameters and live update when change their values.
+The supported math functions come with the `asteval` package, which can be checked by 
+`asteval.Interpreter().symtable.keys()` after `import asteval` in the python console.
 
 The math formula typeset is extracted from compiled PDF, and then arrange them using Geometry Nodes char by char. 
 A lot of Geometry nodes will be used if you have many chars, so this part can be slow. It supports PDF directly or 
@@ -39,7 +41,7 @@ efforts to learn code and could take quite some time to achieve what your want.
 -->
 
 ## Features
-- Super fast function plotting and animation
+- Fast function plotting and animation
 - Support different ways to compile math formula, Typst, Latex(Optex) and PDF. Easy preset animations to config.
 - Support free drawing and writting
 - Morph Animation works among all types, between and across plotting, text, free drawing.
