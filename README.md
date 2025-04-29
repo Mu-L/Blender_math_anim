@@ -104,7 +104,7 @@ And you can add preset animations to the plotting.
 1. Select the formula source.
 2. Type the formula and hit `Enter` or upload the file. Click `Create Formula` button to get the formula.
 3. Adjust the formula's properties, like color, thickness, etc. And you can add preset animations to the formula.
-![Formula](resources/formula.png)
+![Formula](resources/formulas.png)
 ### 3. Free Drawer
 1. Select a drawing object or you create one by `Add Drawer` button if there is none.
 2. Select the drawing layer; click `Draw Mode`, start to draw; click again after drawing is done to go back normal mode.
