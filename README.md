@@ -110,11 +110,13 @@ And you can add preset animations to the plotting.
 1. Select a drawing object or you create one by `Add Drawer` button if there is none.
 2. Select the drawing layer; click `Draw Mode`, start to draw; click again after drawing is done to go back normal mode.
 3. Adjust the drawing's properties, like color, thickness, etc. And you can add preset animations to the drawing.
+![Free Drawing](resources/freedrawing.png)
 ### 4. Morph Anim
 1. Click `Morph Setup` button to config the morph animations.
 2. In the popup window, select the source and target objects, and choose the morph type.
 3. Config the Morph chain, click `OK` button to add morph animations.
 4. Adjust the morphing properties.
+![Morph Setup](resources/morph_setup.png)
 
 Check my tutorials for detailed explanation.
 
