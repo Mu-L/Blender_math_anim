@@ -74,7 +74,7 @@ Before installation:
 
 Now:
 - `Edit -> Preference -> Get Extensions -> Install from Disk...`, locate the zip file to install.
-    ![Install](resources/install.png)
+    ![Install](resources/installation.png)
 - After installation, click `Add-ons` and find `Math Anim` which is this addon, and open the panel go to lower, you 
   need to add the font paths to build fonts' library, only `.otf` and `.ttf` fonts are used. You need to add the 
   Typst and Latex font paths if you plan to use them.
