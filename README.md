@@ -118,6 +118,7 @@ And you can add preset animations to the plotting.
 4. Adjust the morphing properties.
 ![Morph Setup](resources/morph_setup.png)
 
+## Tutorials
 Check my tutorials for detailed explanation.
 
 | Blender Math Anim Tutorial 1 | Blender Math Anim Tutorial 2 | Blender Math Anim Tutorial 3 |
