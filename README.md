@@ -95,7 +95,7 @@ And you can add preset animations to the plotting.
 
 | Function Plot | With Plotting |
 |---------|---------|
-| ![Plot](resouces/functions01.png) | ![Add Plotting](resouces/funtions02.png) |
+| ![Plot](resources/functions01.png) | ![Add Plotting](resources/funtions02.png) |
 
 ### 2. Formula Text
 1. Select the formula source.
