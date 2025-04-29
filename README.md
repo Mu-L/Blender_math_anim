@@ -119,7 +119,10 @@ And you can add preset animations to the plotting.
 ![Morph Setup](resources/morph_setup.png)
 
 Check my tutorials for detailed explanation.
-[![Blender Math Anim Tutorial01](https://img.youtube.com/vi/xh8r-fwPGuc/hqdefault.jpg)](https://www.youtube.com/watch?v=xh8r-fwPGuc)
+
+| Blender Math Anim Tutorial 1 | Blender Math Anim Tutorial 2 | Blender Math Anim Tutorial 3 |
+|---------|---------|---------|
+| [![Blender Math Anim Tutorial01](https://img.youtube.com/vi/xh8r-fwPGuc/hqdefault.jpg)](https://www.youtube.com/watch?v=xh8r-fwPGuc) | [![Blender Math Anim Tutorial02](https://img.youtube.com/vi/p_YRZAk99I8/hqdefault.jpg)](https://www.youtube.com/watch?v=p_YRZAk99I8) | [![Blender Math Anim Tutorial02](https://img.youtube.com/vi/4D5IpUnE3Jo/hqdefault.jpg)](https://www.youtube.com/watch?v=4D5IpUnE3Jo) |
 
 ## Bug Report
 Use **Issues** to report bugs. 
