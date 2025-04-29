@@ -15,25 +15,29 @@ scientific knowledge animations, especially for math and physics etc. To make it
 Pencil system; another reason is that it's native to Drawing which makes it perfect choice to add drawing 
 functionality. 
 
-The math function plotting is pretty fast unless you give too much resolution. Both explicit and parameter 
-functions are supported. It automatically detect variables and parameters and live update when change their values.
-The supported math functions come with the `asteval` package, which can be checked by 
+The math function plotting is pretty fast unless you give too much resolution. Explicit, parametric and polar 
+functions are supported. It automatically detects variables and parameters with live update when their values 
+change. The supported math functions come with the `asteval` package, which can be checked by 
 `asteval.Interpreter().symtable.keys()` after `import asteval` in the python console.
 
 The math formula typeset is extracted from compiled PDF, and then arrange them using Geometry Nodes char by char. 
 A lot of Geometry nodes will be used if you have many chars, so this part can be slow. It supports PDF directly or 
 you can type [Typst](https://github.com/typst/typst) or [Optex](https://github.com/olsak/OpTeX)(Latex) code or 
-upload files, it will automatically compile them to PDF. To make thing easier, only modern `.ttf` and `.otf` fonts 
+upload files, it will automatically compile them to PDF. To make things easier, only modern `.ttf` and `.otf` fonts 
 are supported, the outdated Latex fonts like afm, pfm are not supported, that's why I limit the Latex engine to 
 Optex. You can use LuaLaTex or XeLatex with `.otf` or `.ttf` fonts configured to compile to PDF for the addon to 
 use. The addon **Preference** will build all available fonts dictionary once you provide the fonts' path.
 
-The drawing enable you express your ideas freely by drawing or hand writing. With drawing tablet or iPad you can do 
-anything.
+The Drawing function enables you express your ideas freely by drawing or hand writing. With drawing tablet or iPad 
+you can do anything.
 
 The preset animations can be used across all parts and it's easy to extend or add your own if you're are familiar 
-with Geometry Nodes. Of course, all things can be keyframed to animate which is super super super easy.
+with Geometry Nodes. Of course, all things can be keyframed to animate which is super super super easy. Last, you 
+can morph between or across plots, texts and drawings which is super cool.
 
+The decision to choose Grease Pencil as the carrier of plots, texts and drawings mainly because it is lightweight, 
+better for morph animations, but the cons are obvious, it is not as fancy as mesh in 3D scenes, especially for 
+overlapping, the fill is not working correctly in 3D rendering yet. Hopefully, Blender can improve it with time. 
 <!--
 There are some awesome existing tools and addons, like [blender\_typst\_importer](https://github.com/kolibril13/blender_typst_importer) to help people, but they all lack deep features like predefined animations and single 
 function orientation. Tool like [Manim](https://github.com/3b1b/manim) is very good, but it's still require 
@@ -41,9 +45,10 @@ efforts to learn code and could take quite some time to achieve what your want.
 -->
 
 ## Features
-- Fast function plotting and animation
+- Fast function plotting and animation, support explicit, parametric and polar functions. Automatically detect 
+  variables and parameters. Same parameters can be used across different functions and do the controls. 
 - Support different ways to compile math formula, Typst, Latex(Optex) and PDF. Easy preset animations to config.
-- Support free drawing and writting
+- Support free drawing and writting.
 - Morph Animation works among all types, between and across plotting, text, free drawing.
 - Super esay to extend and add your own animations 
 - Cool visual effects including Bloom, Glow, Rim, Shadow, etc...
@@ -65,21 +70,43 @@ Before installation:
       $$
       \bye
       ```
-      Available [Optex fonts](https://petr.olsak.net/ftp/olsak/optex/op-catalog.pdf)
+    - Recommend to download all the list fonts. Available [Optex fonts](https://petr.olsak.net/ftp/olsak/optex/op-catalog.pdf)
 
-Now
+Now:
 - `Edit -> Preference -> Get Extensions -> Install from Disk...`, locate the zip file to install.
 - After installation, click `Add-ons` and find `Math Anim` which is this addon, and open the panel go to lower, you 
   need to add the font paths to build fonts' library, only `.otf` and `.ttf` fonts are used. You need to add the 
   Typst and Latex font paths if you plan to use them.
-- Optional, you can give presets of Optex or Typst which is helpful for later use, if empty, they will not shown on 
-  the addon UI.
-- You also can set the N Panel Location of the addon UI, it will take effect after reopen. Default inside Tool 
-  which is better if you use drawing cause in Draw Mode, some convenient tools are available there.
+- Optional, you can give presets of Optex or Typst which is helpful for later use, if empty, they will not show 
+  up in the addon UI.
+- You also can set the N Panel Location of the addon UI, it will take effect after reopen. Default it's under Tool
+  category which is better if you use Drawing cause in Draw Mode some convenient tools are available there.
 - You're ready to use.
 
 ## Usage
-See my tutorials.
+### 1. Function Plotter 
+1. Select the function mode. 
+2. Type the function, hit `Enter`. 
+3. Adjust variables' ranges and parameters' values.
+5. Choose a plotter object, or you can create one by `Add Plotter` button if there is none.
+6. Add a plotting by `Add plotting` button. 
+7. Further adjust the plotting's properties, like variables's ranges, parameters' values, color, thickness, etc. 
+And you can add preset animations to the plotting.
+### 2. Formula Text
+1. Select the formula source.
+2. Type the formula and hit `Enter` or upload the file. Click `Create Formula` button to get the formula.
+3. Adjust the formula's properties, like color, thickness, etc. And you can add preset animations to the formula.
+### 3. Free Drawer
+1. Select a drawing object or you create one by `Add Drawer` button if there is none.
+2. Select the drawing layer; click `Draw Mode`, start to draw; click again after drawing is done to go back normal mode.
+3. Adjust the drawing's properties, like color, thickness, etc. And you can add preset animations to the drawing.
+### 4. Morph Anim
+1. Click `Morph Setup` button to config the morph animations.
+2. In the popup window, select the source and target objects, and choose the morph type.
+3. Config the Morph chain, click `OK` button to add morph animations.
+4. Adjust the morphing properties.
+
+Check my tutorials for detailed explanation.
 
 ## Bug Report
 Use **Issues** to report bugs. 
