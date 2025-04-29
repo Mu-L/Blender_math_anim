@@ -87,11 +87,14 @@ Now:
 ### 1. Function Plotter 
 1. Select the function mode. 
 2. Type the function, hit `Enter`. 
-3. Adjust variables' ranges and parameters' values.
-5. Choose a plotter object, or you can create one by `Add Plotter` button if there is none.
-6. Add a plotting by `Add plotting` button. 
-7. Further adjust the plotting's properties, like variables's ranges, parameters' values, color, thickness, etc. 
+   - Adjust variables' ranges and parameters' values.
+3. Choose a plotter object, or you can create one by `Add Plotter` button if there is none.
+4. Add a plotting by `Add plotting` button. 
+5. Further adjust the plotting's properties, like variables's ranges, parameters' values, color, thickness, etc. 
 And you can add preset animations to the plotting.
+| Function Plot | With Plotting |
+|---------|---------|
+| ![Plot](resouces/functions01.png) | ![Add Plotting](resouces/funtions02.png) |
 ### 2. Formula Text
 1. Select the formula source.
 2. Type the formula and hit `Enter` or upload the file. Click `Create Formula` button to get the formula.
