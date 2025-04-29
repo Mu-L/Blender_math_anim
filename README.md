@@ -92,9 +92,11 @@ Now:
 4. Add a plotting by `Add plotting` button. 
 5. Further adjust the plotting's properties, like variables's ranges, parameters' values, color, thickness, etc. 
 And you can add preset animations to the plotting.
+
 | Function Plot | With Plotting |
 |---------|---------|
 | ![Plot](resouces/functions01.png) | ![Add Plotting](resouces/funtions02.png) |
+
 ### 2. Formula Text
 1. Select the formula source.
 2. Type the formula and hit `Enter` or upload the file. Click `Create Formula` button to get the formula.
