@@ -119,6 +119,7 @@ And you can add preset animations to the plotting.
 ![Morph Setup](resources/morph_setup.png)
 
 Check my tutorials for detailed explanation.
+[![Blender Math Anim Tutorial01](https://img.youtube.com/vi/xh8r-fwPGuc/hqdefault.jpg)](https://www.youtube.com/watch?v=xh8r-fwPGuc)
 
 ## Bug Report
 Use **Issues** to report bugs. 
