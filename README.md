@@ -74,6 +74,7 @@ Before installation:
 
 Now:
 - `Edit -> Preference -> Get Extensions -> Install from Disk...`, locate the zip file to install.
+    ![Install](resources/install.png)
 - After installation, click `Add-ons` and find `Math Anim` which is this addon, and open the panel go to lower, you 
   need to add the font paths to build fonts' library, only `.otf` and `.ttf` fonts are used. You need to add the 
   Typst and Latex font paths if you plan to use them.
@@ -81,13 +82,15 @@ Now:
   up in the addon UI.
 - You also can set the N Panel Location of the addon UI, it will take effect after reopen. Default it's under Tool
   category which is better if you use Drawing cause in Draw Mode some convenient tools are available there.
+    ![Setup](resources/preference_setup.png)
 - You're ready to use.
 
 ## Usage
 ### 1. Function Plotter 
 1. Select the function mode. 
 2. Type the function, hit `Enter`. 
-   - Adjust variables' ranges and parameters' values.
+   - Variables and parameters are automatically detected. 
+   - Adjust variables' ranges and parameters' values as needed.
 3. Choose a plotter object, or you can create one by `Add Plotter` button if there is none.
 4. Add a plotting by `Add plotting` button. 
 5. Further adjust the plotting's properties, like variables's ranges, parameters' values, color, thickness, etc. 
