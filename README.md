@@ -132,7 +132,8 @@ And you can add preset animations to the plotting.
 ![Free Drawing](resources/freedrawing.png)
 
 **Limitations and Notes:**
-- Remember to `Update Uayer Tree` when you add or delete layers manually.
+- Remember to `Update Layer Tree` when you add or delete layers manually.
+- Remember to exit **Draw** mode when finish drawing. 
 
 ### 4. Morph Anim
 1. Click `Morph Setup` button to config the morph animations.
