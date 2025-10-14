@@ -103,9 +103,9 @@ And you can add preset animations to the plotting.
 
 **Limitations and Notes:**
 - For explicit functions, polar functions, parametric functions, the supported experssions are based on 
-  `[asteval](https://lmfit.github.io/asteval/basics.html)` package; for implicit functions, the expressions are 
-  based on `[numexpr](https://numexpr.readthedocs.io/en/latest/user_guide.html)` package; for ODEs, the expressions 
-  are based on `[meval](https://docs.rs/meval/latest/meval/)` package. The main reason to use different packages for
+  [`asteval`](https://lmfit.github.io/asteval/basics.html) package; for implicit functions, the expressions are 
+  based on [`numexpr`](https://numexpr.readthedocs.io/en/latest/user_guide.html) package; for ODEs, the expressions 
+  are based on [`meval`](https://docs.rs/meval/latest/meval/) package. The main reason to use different packages for
   different types of functions is performance consideration. Their operatons and functions supports are different 
   though major parts are same, for example, in `meval` (ODEs), `^` for power while `asteval` and `numexpr` using 
   `**`, so please check their operations and functions supports if you have problem.
