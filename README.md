@@ -46,7 +46,8 @@ efforts to learn code and could take quite some time to achieve what your want.
 
 ## Features
 - Fast function plotting and animation, support explicit, parametric and polar functions. Automatically detect 
-  variables and parameters. Same parameters can be used across different functions and do the controls. 
+  variables and parameters. Same parameters can be used across different functions and do the controls. New fast  
+  solvers of first order ODEs and implicit functions are implemented.
 - Support different ways to compile math formula, Typst, Latex(Optex) and PDF. Easy preset animations to config.
 - Support free drawing and writting.
 - Morph Animation works among all types, between and across plotting, text, free drawing.
@@ -100,17 +101,39 @@ And you can add preset animations to the plotting.
 |---------|---------|
 | ![Plot](resources/functions01.png) | ![Add Plotting](resources/functions02.png) |
 
+**Limitations and Notes:**
+- For explicit functions, polar functions, parametric functions, the supported experssions are based on 
+  `[asteval](https://lmfit.github.io/asteval/basics.html)` package; for implicit functions, the expressions are 
+  based on `[numexpr](https://numexpr.readthedocs.io/en/latest/user_guide.html)` package; for ODEs, the expressions 
+  are based on `[meval](https://docs.rs/meval/latest/meval/)` package. The main reason to use different packages for
+  different types of functions is performance consideration. Their operatons and functions supports are different 
+  though major parts are same, for example, in `meval` (ODEs), `^` for power while `asteval` and `numexpr` using 
+  `**`, so please check their operations and functions supports if you have problem.
+- Be careful when choose parameter names, like `e`, `pi`, `inf`, `nan` are reserved names in the above packages and 
+  they having meanings or stand for constant values, don't use them as parameter names.
+- For both variables and parameters, same name will be linked across different functions, so you can control them
+  together by using same name. 
+- For variables, each name I preset 10 to use, like `x, x0, x1, ..., x9` for `x`, so you can use different 
+  variables to control independently in the function expression.
+
 ### 2. Formula Text
 1. Select the formula source.
 2. Type the formula and hit `Enter` or upload the file. Click `Create Formula` button to get the formula.
 3. Adjust the formula's properties, like color, thickness, etc. And you can add preset animations to the formula.
 ![Formula](resources/formulas.png)
 
+**Limitations and Notes:**
+- Remember to adjust both `text` and `stroke` due to some chars are composed by both.
+
 ### 3. Free Drawer
 1. Select a drawing object or you create one by `Add Drawer` button if there is none.
 2. Select the drawing layer; click `Draw Mode`, start to draw; click again after drawing is done to go back normal mode.
 3. Adjust the drawing's properties, like color, thickness, etc. And you can add preset animations to the drawing.
 ![Free Drawing](resources/freedrawing.png)
+
+**Limitations and Notes:**
+- Remember to `Update Uayer Tree` when you add or delete layers manually.
+
 ### 4. Morph Anim
 1. Click `Morph Setup` button to config the morph animations.
 2. In the popup window, select the source and target objects, and choose the morph type.
