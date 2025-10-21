@@ -9,6 +9,8 @@ tool for the same purpose based on Blender which is much fancier and more powerf
 creativity. It is very intuitive to use for those who don't have code based skills. If you are familiar 
 with Blender, the unleashing power will enable you amaze the world.
 
+If you like the project, please give me a star! ⭐
+
 ## Overview
 The main purpose of this addon is to provide an easy and straightfoward but powerful and fancy tool to make 
 scientific knowledge animations, especially for math and physics etc. To make it lightweight, I choose the Grease 
