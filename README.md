@@ -49,9 +49,9 @@ efforts to learn code and could take quite some time to achieve what your want.
   variables and parameters. Same parameters can be used across different functions and do the controls. New fast  
   solvers of first order ODEs and implicit functions are implemented.
 - Support different ways to compile math formula, Typst, Latex(Optex) and PDF. Easy preset animations to config.
-- Support free drawing and writting.
+- Support free drawing and writing.
 - Morph Animation works among all types, between and across plotting, text, free drawing.
-- Super esay to extend and add your own animations 
+- Super easy to extend and add your own animations 
 - Cool visual effects including Bloom, Glow, Rim, Shadow, etc...
 
 ## Installation And Setup
@@ -152,3 +152,5 @@ Check my tutorials for detailed explanation.
 ## Bug Report
 Use **Issues** to report bugs. 
 
+## 🌟 Star History
+[![Star History Chart](https://api.star-history.com/svg?repos=westNeighbor/Blender_math_anim&type=Date)](https://star-history.com/#westNeighbor/Blender_math_anim&Date)
