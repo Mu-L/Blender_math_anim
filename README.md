@@ -61,12 +61,16 @@ Before installation:
 - [Typst](https://github.com/typst/typst) as a python package is shipped with the the addon, but you'd better have 
   it in your system to test the fonts.
     - `typst fonts` will list available fonts for `Typst` use.
+      ```bash
+      #set text(ligatures: false) //disable ligatures for text
+      ```
 - You need to install Latex [Optex](https://github.com/olsak/OpTeX?tab=readme-ov-file) package if you plan to use 
   it. Then install fonts you will use.
     - It will automatically download fonts when you setup in your tex file, for example, save the following code 
       to op-demo.tex and run `optex op-demo.tex`, it will automatically download the `stix` font. 
       ```bash
       \fontfam[stix] %new computer modern, lmfonts, stix, xits, xtixtwo, dejavu
+      \setff{-liga}\currvar %disable ligatures for text, otherwise, ff, fl, fi, fj, ffi, etc  will be treated as single chars
       \nopagenumbers
       $$
       e^\alpha \sum_{k=0}^\infty (\cos\beta_k + i\sin\beta_k)\sqrt{2}\int_{-\infty}^{\infty}dx\mbffraka
