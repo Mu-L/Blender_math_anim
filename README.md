@@ -148,6 +148,18 @@ And you can add preset animations to the plotting.
 4. Adjust the morphing properties.
 ![Morph Setup](resources/morph_setup.png)
 
+## Features to be added
+* Solvers for linearly implicit functions and higher order ODEs.
+    * Linear implicit functions of first order ODE.
+    * Second order ODE.
+* Data plotting from CSV or other data files.
+    * Just need to integrate my another addon [dataVis_3D](https://github.com/westNeighbor/dataVis_3D).
+* Geometry shape sets to plot.
+    * Circle, Ellipse, etc...
+    * Field plot like vector field, scalar field.
+* More preset animations.
+
+
 ## Tutorials
 Check my tutorials for detailed explanation.
 
