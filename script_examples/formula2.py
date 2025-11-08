@@ -7,7 +7,7 @@ scene.math_anim_formula_props.formula_source = 'Optex_Code'
 formula = ["x(t) = \cos(a*t + \phi), \quad y(t) = \cos(b*t)"]
 for i in range(len(formula)):
     if len(scene.math_anim_optexcode.paths) == 0:
-        bpy.ops.math_anim.path_addpath()
+        bpy.ops.math_anim.formula_addpath()
         scene.math_anim_optexcode.paths[0].path = f"{{\Yellow {formula[i]}}}"
     else:
         scene.math_anim_optexcode.paths[0].path = f"{{\Yellow {formula[i]}}}"
@@ -41,7 +41,7 @@ n_rows, n_cols = 8, 5 # different col for different phase, different row for dif
 phi_values = ["\phi = 0 \qquad\;\;  \phi = \pi/4 \quad\;\; \phi = \pi/2 \quad\;\; \phi = 3\pi/4 \quad \phi = \pi"]
 for j in range(len(phi_values)):
     if len(scene.math_anim_optexcode.paths) == 0:
-        bpy.ops.math_anim.path_addpath()
+        bpy.ops.math_anim.formula_addpath()
         scene.math_anim_optexcode.paths[0].path = f"{{\White {phi_values[j]}}}"
     else:
         scene.math_anim_optexcode.paths[0].path = f"{{\White {phi_values[j]}}}"
@@ -72,7 +72,7 @@ a_vals = ["\matrix{a=1.0 \quad& a=1.0 \quad& a=1.0 \quad& a=2.0 \quad& a=3.0 \qu
 b_vals = ["\matrix{b=1.0 \quad& b=2.0 \quad& b=3.0 \quad& b=3.0 \quad& b=4.0 \quad& b=5.0 \quad& b=5.0 \quad& b=6.0}"]
 for i in range(len(a_vals)):
     if len(scene.math_anim_optexcode.paths) == 0:
-        bpy.ops.math_anim.path_addpath()
+        bpy.ops.math_anim.formula_addpath()
         scene.math_anim_optexcode.paths[0].path = f"{{\Green {a_vals[i]}}}"
     else:
         scene.math_anim_optexcode.paths[0].path = f"{{\Green {a_vals[i]}}}"
@@ -103,7 +103,7 @@ for i in range(len(a_vals)):
     writing_node.inputs["Start Frame"].default_value = 6
 for i in range(len(b_vals)):
     if len(scene.math_anim_optexcode.paths) == 0:
-        bpy.ops.math_anim.path_addpath()
+        bpy.ops.math_anim.formula_addpath()
         scene.math_anim_optexcode.paths[0].path = f"{{\Blue {b_vals[i]}}}"
     else:
         scene.math_anim_optexcode.paths[0].path = f"{{\Blue {b_vals[i]}}}"

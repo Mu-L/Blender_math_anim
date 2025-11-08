@@ -7,7 +7,7 @@ scene.math_anim_formula_props.formula_source = 'Optex_Code'
 formula = ["x(t) = \cos(a*t + \phi)", "y(t) = \cos(b*t)"]
 for i in range(len(formula)):
     if len(scene.math_anim_optexcode.paths) == 0:
-        bpy.ops.math_anim.path_addpath()
+        bpy.ops.math_anim.formula_addpath()
         scene.math_anim_optexcode.paths[0].path = f"{{\Yellow {formula[i]}}}"
     else:
         scene.math_anim_optexcode.paths[0].path = f"{{\Yellow {formula[i]}}}"
@@ -37,7 +37,7 @@ n_rows, n_cols = 8, 5 # different col for different phase, different row for dif
 phi_values = ["0", "\pi/4", "\pi/2", "3\pi/4", "\pi"]
 for j in range(n_cols):
     if len(scene.math_anim_optexcode.paths) == 0:
-        bpy.ops.math_anim.path_addpath()
+        bpy.ops.math_anim.formula_addpath()
         scene.math_anim_optexcode.paths[0].path = f"{{\White \phi = {phi_values[j]}}}"
     else:
         scene.math_anim_optexcode.paths[0].path = f"{{\White \phi = {phi_values[j]}}}"
@@ -67,7 +67,7 @@ a_vals = [1.0,1.0,1.0,2.0,3.0,3.0,4.0,5.0]
 b_vals = [1.0,2.0,3.0,3.0,4.0,5.0,5.0,6.0]
 for i in range(n_rows):
     if len(scene.math_anim_optexcode.paths) == 0:
-        bpy.ops.math_anim.path_addpath()
+        bpy.ops.math_anim.formula_addpath()
         scene.math_anim_optexcode.paths[0].path = f"{{\Green a = {a_vals[i]}}}"
     else:
         scene.math_anim_optexcode.paths[0].path = f"{{\Green a = {a_vals[i]}}}"
@@ -94,7 +94,7 @@ for i in range(n_rows):
     rotate_node.inputs["Rotation"].default_value = (0, 0, -math.pi/2)
 for i in range(n_rows):
     if len(scene.math_anim_optexcode.paths) == 0:
-        bpy.ops.math_anim.path_addpath()
+        bpy.ops.math_anim.formula_addpath()
         scene.math_anim_optexcode.paths[0].path = f"{{\Blue b = {b_vals[i]}}}"
     else:
         scene.math_anim_optexcode.paths[0].path = f"{{\Blue b = {b_vals[i]}}}"
