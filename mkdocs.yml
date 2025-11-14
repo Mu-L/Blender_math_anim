@@ -1,0 +1,12 @@
+site_name: Blender Math Anim Add-on Documentation
+site_url: https://westNeighbor.github.io/Blender_math_anim/
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Overview: overview.md
+  - Installation: installation.md
+  - Usage: usage.md
+  - API Reference: api.md
+  - Advanced Topics: advanced.md
+docs_dir: docs
