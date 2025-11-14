@@ -1,8 +1,14 @@
 # Blender Math Anim Add-on
 
-Welcome to the documentation for the **Blender Math Anim Add-on**.
+Welcome to the documentation for **Blender Math Anim**, an advanced add-on for
+visualizing math functions, animating curves, rendering formulas, and drawing
+directly inside Blender.
 
-This add-on enables you to plot, animate, and draw mathematical functions in Blender using intuitive controls.  
-It supports live updates, parameter sliders, morphing between plots, text formula rendering, and freehand drawing.
+This site contains:
 
-Get started by reading the [Installation](installation.md) section.
+- Installation guide
+- Usage tutorials
+- Function animation workflows
+- Drawing & morphing tools
+- How the add-on works internally
+- API reference

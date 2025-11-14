@@ -1,14 +1,26 @@
 # Overview
 
-The Blender Math Anim add-on is designed for creators who want to *visualize* mathematical concepts, animations, and drawing in Blender — without writing full code.
+**Blender Math Anim** is a Blender add-on designed for math visualization,
+plotting, animation, and drawing inside Blender.
 
-## Features
-- Explicit, parametric, and polar function plotting
-- Automatic detection of variables and parameters
-- Support for TeX/Typst/PDF formula rendering
+### ✨ Features
+- Generate and animate mathematical functions:
+  - explicit functions
+  - parametric curves
+  - polar functions
+- Multiple animation options:
+  - writing animation
+  - parameter driving
+  - morphing between curves, text, drawings
+- Formula rendering using Typst / OpTeX
 - Freehand drawing layer
-- Morphing between plots, texts, and drawings
-- Live update of plots as parameters change
-- Extendable animation presets
+- Real-time updates with safe math engine (`numexpr`)
+- Sliders for any detected parameters
+- GPU-friendly mesh updating
 
-Continue to the [Usage](usage.md) section for detailed usage.
+### Use cases
+- Classroom math demonstrations  
+- Data visualization  
+- TikTok/YouTube math animation  
+- Scientific animations  
+- Educational content  

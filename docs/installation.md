@@ -1,13 +1,27 @@
 # Installation
 
 ## Requirements
-- Blender version **3.x** or later
-- Python environment installed with required modules (Typst, Optex) if using formula rendering
-- Only `.ttf` or `.otf` fonts supported for TeX formula rendering
+- Blender 3.x or newer
+- Python modules (optional features):
+  - `typst` or OpTeX (formula rendering)
+  - TrueType or OpenType fonts for formula rendering
+- Supports macOS, Windows, Linux
 
-## Install Add-on
-1. Download or clone this repository  
-2. In Blender: Edit → Preferences → Add‐ons → Install from Disk… → select `Blender_math_anim.zip` or folder  
-3. Enable the add-on “Math Anim”  
-4. In Preferences → Add-ons → Math Anim: set font paths for Typst/LaTeX if needed  
-5. (Optional) Add your fonts and presets  
+---
+
+## Installing the Add-on
+
+1. Download the `.zip` from GitHub Releases  
+2. Open Blender → **Edit → Preferences → Add-ons**  
+3. Click **Install**  
+4. Select the ZIP file  
+5. Enable: **Math Anim**
+
+---
+
+## Setting Up Formula Rendering (optional)
+
+1. In Preferences → Add-ons → Math Anim:  
+   - Set Typst executable (if using Typst)  
+   - Set OpTeX path (if using OpTeX)  
+   - Choose your fonts (`.ttf` or `.otf`)
