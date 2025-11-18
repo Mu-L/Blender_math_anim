@@ -1,12 +1,12 @@
 # Free Drawing
 
-1. Add → Math Anim → **Drawing**
-2. Use mouse or tablet to draw paths.
+1. Add/Select drawing holding object and layers → **Drawing**
+2. Use mouse or tablet to draw or write stuffs.
 3. Supports:
-   - Stroke width
-   - Color
-   - Duration
-4. Convert drawing to mesh for animation.
+   - All native grease pencil tools and settings
+   - Can also manually adjust some controls 
+   - Grease pencil effect modifiers
 
 ## Writing Animation
-Drawing objects support writing reveal animation.
+- Preset animations can easily apply to Drawing layers.
+- Morph between and across drawings and other types

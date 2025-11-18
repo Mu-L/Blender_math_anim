@@ -1,15 +1,14 @@
 # Formula Generating and Animating
 
-You can create formula objects rendered using Typst or OpTeX.
+You can create formula using Typst or OpTeX or PDF.
 
-1. Add → Math Anim → **Formula**
-2. Choose engine:
+1. Choose engine:
    - Typst
    - OpTeX / LaTeX
-3. Enter input text: $ \int_0^\pi \sin(x),dx = 2 $
-4. Render
+   - PDF
+2. Create formula.
+3. Adjust settings.
 
 ## Animating Formulas
-- Writing animation
-- Morphing into other formulas
-- Moving along paths
+- Preset animations
+- Morphing between and across formulas with other types

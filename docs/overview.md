@@ -15,7 +15,7 @@ plotting, animation, and drawing inside Blender.
   - parameter driving
   - morphing between plottings, text, drawings
 - Formula generating using Typst / OpTeX / PDF
-- Freehand drawing layer
+- Freehand drawings 
 - Real-time updates with safe math engine (`numexpr`)
 - Sliders for any detected parameters
 
