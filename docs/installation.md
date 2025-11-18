@@ -4,14 +4,14 @@
 
 - Blender version 4.4 or 5.0
 
-  - Blender 4.5 doesn't work due to its internal bugs
+    - Blender 4.5 doesn't work due to its internal bugs
 
 - Supports macOS, Windows, Linux
 
 - It will requires optex for rendering formulas (optional)
 
-  - Make sure `optex` command is available in your system PATH
-  - If you can run `optex` from a terminal, you're good to go.
+    - Make sure `optex` command is available in your system PATH
+    - If you can run `optex` from a terminal, you're good to go.
 
 ---
 
@@ -21,6 +21,7 @@
 2. Choose **Install from Diks...**  
 3. Select the ZIP file and click the **Install from Disk** button
 4. By default, it should be enabled, double check to make sure it's enabled, if not, just enable it
+
 ---
 
 ## Setting Up the Add-on
@@ -34,11 +35,11 @@ Click **Add-ons** then search **Math Anim**, expand it.
 
 * All the needed python packages are bundled with the add-on except the `OpTex` which doesn't have a python package.
 
-   - [OpTeX](https://github.com/olsak/OpTeX?tab=readme-ov-file) is just an latex engine (like lualatex, xelatex), it only supports modern `.ttf` and `.otf` fonts, it's optianl.
-   - You can use [Typst](https://github.com/typst/typst) which is also an modern typesetting engine by only supporting `.ttf` and `.otf` fonts and the `Typst` is bundled with this add-on.
-   - If you installed `OpTex`, make sure it's in your system PATH:
-       - It is in the PATH if you can run `optex` from a terminal, for **Windows**, **MacOS**, and **Linux**.
-   - For both `Typst` and `OpTex`, check their documentations for their free available fonts to use.
+    - [OpTeX](https://github.com/olsak/OpTeX?tab=readme-ov-file) is just an latex engine (like lualatex, xelatex), it only supports modern `.ttf` and `.otf` fonts, it's optianl.
+    - You can use [Typst](https://github.com/typst/typst) which is also an modern typesetting engine by only supporting `.ttf` and `.otf` fonts and the `Typst` is bundled with this add-on.
+    - If you installed `OpTex`, make sure it's in your system PATH:
+        - It is in the PATH if you can run `optex` from a terminal, for **Windows**, **MacOS**, and **Linux**.
+    - For both `Typst` and `OpTex`, check their documentations for their free available fonts to use.
 
 * You can also preset formulas for both `Typst` and `OpTex` for reference or speed up your workflow. Once they're set, they will be showed up in the add-on panel under formula section, otherwise, they will not show up.
 
