@@ -6,9 +6,10 @@ directly inside Blender.
 
 This site contains:
 
-- Installation guide
-- Usage tutorials
-    - Function plotting and animation workflows
-    - Formula generation and animation workflows
-    - Drawing & morphing tools
-- API reference
+- [Installation guide](installation.md)
+- [Usage tutorials](usage.md)
+    - [Function plotting and animation workflows](usage_functions.md)
+    - [Formula generation and animation workflows](usage_text.md)
+    - [Drawing](usage_drawing.md) 
+    - [morphing tools](usage_morphing.md) 
+- [API reference](api_reference.md)
