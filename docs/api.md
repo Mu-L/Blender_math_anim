@@ -1,28 +1,32 @@
 # API Reference
 
-This page describes the main properties exposed by the add-on.
+This page describes the main properties and operators exposed by the add-on.
 
-## Function Object (`MATH_ANIM_Function`)
-- `expression`
-- `t_min`, `t_max`
-- `samples`
-- `parameters` (auto-detected)
-- `live_update`
+## Math Variable and Parameter Proeprties 
+- Variables
+    - `math_anim_var_{var_name}_min`, `math_anim_var_{var_name}_max`
+    - `math_anim_var_{var_name}_resolution`
+- `Parameters`
+    - `math_anim_param_{param_name}`
+- `Math Functions and Constants`
+    - `e`, `pi`, `tau`, `phi`, etc.
+    - `sin()`, `cos()`, `tan()`, `log()`, `exp()`, etc.
 
-## Formula Object
-- `input_text`
-- `font`
-- `engine` (Typst, OpTeX)
-- `writing_speed`
+## Holder Objects
+- Formula Holder
+- Drawing Holder
+- Function Plotter Holder
 
-## Drawing Object
-- `points`
-- `stroke_width`
-- `color`
+## Animation Tracters
+- Formula Animator
+- Plotter Animator
+- Drawer Animator
 
-## Morph Object
-- `source`
-- `target`
-- `resolution`
-- `ease_type`
-- `factor` (0 → 1)
+## Operators
+- Formula/Drawing/Plotter Grease Pencil object creations
+- Plotting creations and updates
+- Formula creations
+    - Group text settings
+    - Single char settings
+- Animation creations
+- Morphing Setups

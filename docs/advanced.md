@@ -1,9 +1,8 @@
 # Performance Tips
 
 - Use **numexpr** for fast expression evaluation
-- Default sample count is optimized for animation
-- Heavy curves: disable live update while adjusting parameters
-- Use GPU subdivision sparingly
+- Optimize sample count for better live animation
+- Avoid super heavy curves
 - Try to keep expression complexity low
 
 # Expression Engine (numexpr)
@@ -25,14 +24,8 @@ The add-on uses `numexpr` instead of Python `eval`:
 
 Live update regenerates the curve automatically when:
 
-- expression changes
-- slider value changes
+- parameter value changes
 - domain or sample count changes
-
-Implementation details:
-- On property update, compute curve using `numexpr`
-- Update mesh vertices only (no recreation)
-- Threaded execution planned for future versions
 
 # Add-on Architecture
 
@@ -41,16 +34,14 @@ Main components:
 ## Function Engine
 - Expression parser → variable detection → parameter detection
 - numexpr evaluator
-- Mesh generator
+- Grease pencil generator
 
 ## UI Panels
 - Function panel
 - Drawing panel
 - Formula panel
 - Morph panel
-- Slider panel
 
 ## Drivers and Animation
-- Sliders map to keyframes
-- Mesh updates through handlers
+- Drivers and keyframes
 

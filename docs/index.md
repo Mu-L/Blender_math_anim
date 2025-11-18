@@ -13,3 +13,4 @@ This site contains:
     - [Free Drawings](usage_drawing.md) 
     - [Morphing setups](usage_morphing.md) 
 - [API reference](api_reference.md)
+- [Advanced Topics](advanced.md)
