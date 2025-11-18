@@ -1,4 +1,4 @@
-# Freehand Drawing
+# Free Drawing
 
 1. Add → Math Anim → **Drawing**
 2. Use mouse or tablet to draw paths.

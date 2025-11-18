@@ -1,4 +1,4 @@
-# Formula Rendering
+# Formula Generating and Animating
 
 You can create formula objects rendered using Typst or OpTeX.
 

@@ -10,6 +10,6 @@ This site contains:
 - [Usage tutorials](usage.md)
     - [Function plotting and animation workflows](usage_functions.md)
     - [Formula generation and animation workflows](usage_text.md)
-    - [Drawing](usage_drawing.md) 
-    - [morphing tools](usage_morphing.md) 
+    - [Free Drawings](usage_drawing.md) 
+    - [Morphing setups](usage_morphing.md) 
 - [API reference](api_reference.md)

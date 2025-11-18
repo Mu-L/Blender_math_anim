@@ -1,4 +1,4 @@
-# Function Animation
+# Function Plotting and Animation
 
 ## Creating a Function Plot
 

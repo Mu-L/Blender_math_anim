@@ -3,8 +3,8 @@
 This section covers the core workflow of the add-on.
 
 ### Main components:
-- **Function Plotting**
-- **Formula Generating**
+- **[Function Plotting](usage_functions.md)**
+- [**Formula Generating**](usage_formulas.md)
 - **Free Drawing**
 - **Morphing System**
 

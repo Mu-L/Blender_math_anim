@@ -1,4 +1,4 @@
-# Morphing
+# Morphing Setups
 
 You can morph between:
 - Functions ↔ Functions  
