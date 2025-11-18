@@ -29,6 +29,7 @@
 Click **Add-ons** then search **Math Anim**, expand it. 
 
 1. The fonts path libraries are necessary unless you don't use the formula part
+
   * Only `.ttf` and `.otf` fonts are supported, if your PDF files are compiled with other font types, like latex with 
 `.pfb` fonts (they are so outdated), it will use Blender default font instead.
   * All the needed python packages are bundled with the add-on except the `OpTex` which doesn't have a python package.
