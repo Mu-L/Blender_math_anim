@@ -163,9 +163,10 @@ And you can add preset animations to the plotting.
 ## Tutorials
 Check my tutorials for detailed explanation.
 
-| Blender Math Anim Tutorial 1 | Blender Math Anim Tutorial 2 | Blender Math Anim Tutorial 3 |
+| Tutorial -- Overview | Tutorial -- Function Plotting | Tutorial -- Formula Generation |
 |---------|---------|---------|
 | [![Tutorial -- Overview](https://img.youtube.com/vi/6Ml6nkW8yKk/hqdefault.jpg)](https://youtu.be/6Ml6nkW8yKk) | [![Tutorial -- Function Plotting](https://img.youtube.com/vi/6QsGyOwBRRM/hqdefault.jpg)](https://youtu.be/6QsGyOwBRRM) | [![Tutorial -- Formula Generation](https://img.youtube.com/vi/UrocI9kgmuQ/hqdefault.jpg)](https://youtu.be/UrocI9kgmuQ) |
+| Tutorial -- Free Drawing | Tutorial -- Morphing | |
 | [![Tutorial -- Free Drawing](https://img.youtube.com/vi/zeyOdYxH2f8/hqdefault.jpg)](https://youtu.be/zeyOdYxH2f8) | [![Tutorial -- Morphing](https://img.youtube.com/vi/jnUytybWhrc/hqdefault.jpg)](https://youtu.be/jnUytybWhrc) | |
 
 ## Bug Report
