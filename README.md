@@ -58,7 +58,7 @@ efforts to learn code and could take quite some time to achieve what your want.
 
 ## Installation And Setup
 Before installation:
-- [Typst](https://github.com/typst/typst) as a python package is shipped with the the addon, but you'd better have 
+- [Typst](https://github.com/typst/typst) as a python package is shipped with the addon, but you'd better have 
   it in your system to test the fonts.
     - `typst fonts` will list available fonts for `Typst` use.
       ```bash
@@ -165,7 +165,8 @@ Check my tutorials for detailed explanation.
 
 | Blender Math Anim Tutorial 1 | Blender Math Anim Tutorial 2 | Blender Math Anim Tutorial 3 |
 |---------|---------|---------|
-| [![Blender Math Anim Tutorial01](https://img.youtube.com/vi/xh8r-fwPGuc/hqdefault.jpg)](https://www.youtube.com/watch?v=xh8r-fwPGuc) | [![Blender Math Anim Tutorial02](https://img.youtube.com/vi/p_YRZAk99I8/hqdefault.jpg)](https://www.youtube.com/watch?v=p_YRZAk99I8) | [![Blender Math Anim Tutorial02](https://img.youtube.com/vi/4D5IpUnE3Jo/hqdefault.jpg)](https://www.youtube.com/watch?v=4D5IpUnE3Jo) |
+| [![Tutorial -- Overview](https://img.youtube.com/vi/6Ml6nkW8yKk/hqdefault.jpg)](https://youtu.be/6Ml6nkW8yKk) | [![Tutorial -- Function Plotting](https://img.youtube.com/vi/6QsGyOwBRRM/hqdefault.jpg)](https://youtu.be/6QsGyOwBRRM) | [![Tutorial -- Formula Generation](https://img.youtube.com/vi/UrocI9kgmuQ/hqdefault.jpg)](https://youtu.be/UrocI9kgmuQ) |
+| [![Tutorial -- Free Drawing](https://img.youtube.com/vi/zeyOdYxH2f8/hqdefault.jpg)](https://youtu.be/zeyOdYxH2f8) | [![Tutorial -- Morphing](https://img.youtube.com/vi/jnUytybWhrc/hqdefault.jpg)](https://youtu.be/jnUytybWhrc) | |
 
 ## Bug Report
 Use **Issues** to report bugs. 
