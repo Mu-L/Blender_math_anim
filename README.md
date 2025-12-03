@@ -130,6 +130,7 @@ And you can add preset animations to the plotting.
 
 **Limitations and Notes:**
 - Remember to adjust both `text` and `stroke` due to some chars are composed by both.
+- Performance could be slow if there are many chars or strokes or fills due to many geometry nodes are used.
 
 ### 3. Free Drawer
 1. Select a drawing object or you create one by `Add Drawer` button if there is none.
@@ -152,11 +153,12 @@ And you can add preset animations to the plotting.
 * Solvers for linearly implicit functions and higher order ODEs.
     * Linear implicit functions of first order ODE.
     * Second order ODE.
-* Data plotting from CSV or other data files.
+* Support different types of plots, like bar plot, chart plot, etc...
     * Just need to integrate my another addon [dataVis_3D](https://github.com/westNeighbor/dataVis_3D).
 * Geometry shape sets to plot.
     * Circle, Ellipse, etc...
     * Field plot like vector field, scalar field.
+* Improve formula generation performance.
 * More preset animations.
 
 
