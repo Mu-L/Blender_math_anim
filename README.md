@@ -171,8 +171,8 @@ Check my tutorials for detailed explanation on YouTube.
 | Tutorial -- Free Drawing | Tutorial -- Morphing | |
 | [![Tutorial -- Free Drawing](https://img.youtube.com/vi/zeyOdYxH2f8/hqdefault.jpg)](https://youtu.be/zeyOdYxH2f8) | [![Tutorial -- Morphing](https://img.youtube.com/vi/jnUytybWhrc/hqdefault.jpg)](https://youtu.be/jnUytybWhrc) | |
 
-Check my posts on other platforms.
-| TikTok @math_flow7 | BiliBili @罗刹国落选村花 | |
+Check my posts on social channels.
+| TikTok [@math_flow7](https://www.tiktok.com/@math_flow7) | BiliBili [@罗刹国落选村花](https://b23.tv/KdlEALL) | |
 |---------|---------|---------|
 | [![Math flow anim](resources/tiktok_accountqrcode.png)](https://www.tiktok.com/@math_flow7) | [![BiliBili](resources/bilibili_accountqrcode.png)](https://b23.tv/KdlEALL) | |
 
