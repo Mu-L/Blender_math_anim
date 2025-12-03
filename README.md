@@ -174,7 +174,7 @@ Check my tutorials for detailed explanation on YouTube.
 Check my posts on other platforms.
 | TikTok @math_flow7 | BiliBili @罗刹国落选村花 | |
 |---------|---------|---------|
-| [![Math flow anim](resources/tiktok_accountqrcode.JPG)](https://www.tiktok.com/@math_flow7) | [![BiliBili](resources/bilibili_accountqrcode.JPG)](https://b23.tv/KdlEALL) | |
+| [![Math flow anim](resources/tiktok_accountqrcode.png)](https://www.tiktok.com/@math_flow7) | [![BiliBili](resources/bilibili_accountqrcode.png)](https://b23.tv/KdlEALL) | |
 
 ## Bug Report
 Use **Issues** to report bugs. 
