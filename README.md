@@ -163,13 +163,18 @@ And you can add preset animations to the plotting.
 
 
 ## Tutorials
-Check my tutorials for detailed explanation.
+Check my tutorials for detailed explanation on YouTube.
 
 | Tutorial -- Overview | Tutorial -- Function Plotting | Tutorial -- Formula Generation |
 |---------|---------|---------|
 | [![Tutorial -- Overview](https://img.youtube.com/vi/6Ml6nkW8yKk/hqdefault.jpg)](https://youtu.be/6Ml6nkW8yKk) | [![Tutorial -- Function Plotting](https://img.youtube.com/vi/6QsGyOwBRRM/hqdefault.jpg)](https://youtu.be/6QsGyOwBRRM) | [![Tutorial -- Formula Generation](https://img.youtube.com/vi/UrocI9kgmuQ/hqdefault.jpg)](https://youtu.be/UrocI9kgmuQ) |
 | Tutorial -- Free Drawing | Tutorial -- Morphing | |
 | [![Tutorial -- Free Drawing](https://img.youtube.com/vi/zeyOdYxH2f8/hqdefault.jpg)](https://youtu.be/zeyOdYxH2f8) | [![Tutorial -- Morphing](https://img.youtube.com/vi/jnUytybWhrc/hqdefault.jpg)](https://youtu.be/jnUytybWhrc) | |
+
+Check my posts on other platforms.
+| TikTok @math_flow7 | BiliBili @罗刹国落选村花 | |
+|---------|---------|---------|
+| [![Math flow anim](resources/tiktok_accountqrcode.JPG)](https://www.tiktok.com/@math_flow7) | [![BiliBili](resources/bilibili_accountqrcode.JPG)](https://b23.tv/KdlEALL) | |
 
 ## Bug Report
 Use **Issues** to report bugs. 
