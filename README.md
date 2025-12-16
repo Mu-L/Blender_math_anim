@@ -175,6 +175,7 @@ Check my social posts
 | TikTok [@math_flow7](https://www.tiktok.com/@math_flow7) | BiliBili [@罗刹国落选村花](https://b23.tv/KdlEALL) | |
 |---------|---------|---------|
 | [![Math flow anim](resources/tiktok_accountqrcode.JPG)](https://www.tiktok.com/@math_flow7) | [![BiliBili](resources/bilibili_accountqrcode.JPG)](https://b23.tv/KdlEALL) | |
+| <a href="https://www.tiktok.com/@math_flow7"><img src="resources/tiktok_accountqrcode.JPG" width="150" height="150" alt="TikTok QR"></a>&nbsp;&nbsp;&nbsp; | <a href="https://b23.tv/KdlEALL"><img src="resources/bilibili_accountqrcode.JPG" width="150" height="150" alt="BiliBili QR"></a> | |
 
 ## 💖 Support
 
@@ -184,9 +185,7 @@ If it’s useful to you, please consider support its development here:
 |---------|---------|---------|
 | [![PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.me/westNeighbor) | ![PayPalQR](resources/paypal_qrcode.png) | ![AlipayQR](resources/alipay_qrcode.jpg) |
 
-| PayPal | Alipay |
-|--------|--------|
-| [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.me/westNeighbor) | ![Alipay](resources/alipay_qrcode.jpg) |
+| [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.me/westNeighbor) |
 | <img src="resources/paypal_qrcode.png" width="150" height="150"> | <img src="resources/alipay_qrcode.jpg" width="150" height="150"> |
 
 
