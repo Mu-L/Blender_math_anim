@@ -173,6 +173,7 @@ Check my tutorials for detailed explanation on YouTube.
 
 Check my social posts
 | TikTok [@math_flow7](https://www.tiktok.com/@math_flow7) | BiliBili [@罗刹国落选村花](https://b23.tv/KdlEALL) | |
+|---------|---------|---------|
 | [![Math flow anim](resources/tiktok_accountqrcode.JPG)](https://www.tiktok.com/@math_flow7) | [![BiliBili](resources/bilibili_accountqrcode.JPG)](https://b23.tv/KdlEALL) | |
 
 ## 💖 Support
@@ -181,7 +182,7 @@ If it’s useful to you, please consider support its development here:
 
 | PayPal Link | PayPal QR Code| Alipay QR Code|
 |---------|---------|---------|
-| [![PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.me/westNeighbor) | ![PayPal_QR](resources/paypal_qrcode.png) | ![Alipay_QR](resources/alipay_qrcode.JPG) |
+| [![PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.me/westNeighbor) | ![PayPalQR](resources/paypal_qrcode.png) | ![AlipayQR](resources/alipay_qrcode.jpg) |
 
 
 Thank you for your support!
