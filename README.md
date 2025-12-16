@@ -176,6 +176,15 @@ Check my posts on social channels.
 |---------|---------|---------|
 | [![Math flow anim](resources/tiktok_accountqrcode.JPG)](https://www.tiktok.com/@math_flow7) | [![BiliBili](resources/bilibili_accountqrcode.JPG)](https://b23.tv/KdlEALL) | |
 
+## 💖 Support
+
+If it’s useful to you, you can support its development here:
+
+[![PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.me/westNeighbor)
+
+
+Thank you for your support!
+
 ## Bug Report
 Use **Issues** to report bugs. 
 
