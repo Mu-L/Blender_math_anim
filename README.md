@@ -184,6 +184,11 @@ If it’s useful to you, please consider support its development here:
 |---------|---------|---------|
 | [![PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.me/westNeighbor) | ![PayPalQR](resources/paypal_qrcode.png) | ![AlipayQR](resources/alipay_qrcode.jpg) |
 
+| PayPal | Alipay |
+|--------|--------|
+| [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.me/westNeighbor) | ![Alipay](resources/alipay_qrcode.jpg) |
+| <img src="resources/paypal_qrcode.png" width="150" height="150"> | <img src="resources/alipay_qrcode.jpg" width="150" height="150"> |
+
 
 Thank you for your support!
 
