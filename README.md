@@ -170,17 +170,17 @@ Check my tutorials for detailed explanation on YouTube.
 | [![Tutorial -- Overview](https://img.youtube.com/vi/6Ml6nkW8yKk/hqdefault.jpg)](https://youtu.be/6Ml6nkW8yKk) | [![Tutorial -- Function Plotting](https://img.youtube.com/vi/6QsGyOwBRRM/hqdefault.jpg)](https://youtu.be/6QsGyOwBRRM) | [![Tutorial -- Formula Generation](https://img.youtube.com/vi/UrocI9kgmuQ/hqdefault.jpg)](https://youtu.be/UrocI9kgmuQ) |
 | Tutorial -- Free Drawing | Tutorial -- Morphing | |
 | [![Tutorial -- Free Drawing](https://img.youtube.com/vi/zeyOdYxH2f8/hqdefault.jpg)](https://youtu.be/zeyOdYxH2f8) | [![Tutorial -- Morphing](https://img.youtube.com/vi/jnUytybWhrc/hqdefault.jpg)](https://youtu.be/jnUytybWhrc) | |
-
-Check my posts on social channels.
-| TikTok [@math_flow7](https://www.tiktok.com/@math_flow7) | BiliBili [@罗刹国落选村花](https://b23.tv/KdlEALL) | |
+| TikTok Post [@math_flow7](https://www.tiktok.com/@math_flow7) | BiliBili Post [@罗刹国落选村花](https://b23.tv/KdlEALL) | |
 |---------|---------|---------|
 | [![Math flow anim](resources/tiktok_accountqrcode.JPG)](https://www.tiktok.com/@math_flow7) | [![BiliBili](resources/bilibili_accountqrcode.JPG)](https://b23.tv/KdlEALL) | |
 
 ## 💖 Support
 
-If it’s useful to you, you can support its development here:
+If it’s useful to you, please consider support its development here:
 
-[![PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.me/westNeighbor)
+| PayPal Link | PayPal QR Code| Alipay QR Code|
+|---------|---------|---------|
+| [![PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.me/westNeighbor) | ![PayPal QR](./resources/paypal_qrcode.png) | ![Alipay QR](./resources/alipay_qrcode.JPG) |
 
 
 Thank you for your support!
