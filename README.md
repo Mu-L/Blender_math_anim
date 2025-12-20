@@ -10,6 +10,7 @@ creativity. It is very intuitive to use for those who don't have code based skil
 with Blender, the unleashing power will enable you amaze the world.
 
 If you like the project, please give me a star! ⭐
+#### Will release version for Blender 4.4 when the star reaches 100, for Blender 5.0 when 200 star ####
 
 ## Overview
 The main purpose of this addon is to provide an easy and straightfoward but powerful and fancy tool to make 
@@ -178,7 +179,7 @@ Check my social posts
 
 ## 💖 Support
 
-If it’s useful to you, please consider support its development here:
+If it’s useful to you, please consider support its development:
 
 | PayPal Link | PayPal QR Code| Alipay QR Code|
 |---------|---------|---------|
