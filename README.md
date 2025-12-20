@@ -195,4 +195,4 @@ Use **Issues** to report bugs.
 [![Star History Chart](https://api.star-history.com/svg?repos=westNeighbor/Blender_math_anim&type=Date)](https://star-history.com/#westNeighbor/Blender_math_anim&Date)
 
 ##  License 
-This project is licensed under the [![](https://img.shields.io/github/license/westNeighbor/Blender_math_anim)](LICENSE).
+This project is licensed under the [![License](https://img.shields.io/github/license/westNeighbor/Blender_math_anim)](LICENSE).
