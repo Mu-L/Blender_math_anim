@@ -10,8 +10,11 @@ creativity. It is very intuitive to use for those who don't have code based skil
 with Blender, the unleashing power will enable you amaze the world.
 
 If you like the project, please give me a star! ⭐
-<h4 align="center" style="color:#4CAF50;">
-Version for Blender 4.4 will be released at 100 ⭐, and for Blender 5.0 at 200 ⭐. Share to unlock early releases 😏
+<h4 align="center">
+  <span style="color:#4CAF50;">
+    Version for Blender 4.4 will be released at 100 ⭐, and for Blender 5.0 at 200 ⭐.
+    Share to unlock early releases 😏
+  </span>
 </h4>
 
 ## Overview
