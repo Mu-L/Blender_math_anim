@@ -10,7 +10,8 @@ creativity. It is very intuitive to use for those who don't have code based skil
 with Blender, the unleashing power will enable you amaze the world.
 
 If you like the project, please give me a star! ⭐
-#### Will release version for Blender 4.4 when the star reaches 100, for Blender 5.0 when 200 star. Spread to others for early release, :smirk: ####
+```diff
+- #### Will release version for Blender 4.4 when the star reaches 100, for Blender 5.0 when 200 star. Spread to others for early release, :smirk: ####
 
 ## Overview
 The main purpose of this addon is to provide an easy and straightfoward but powerful and fancy tool to make 
