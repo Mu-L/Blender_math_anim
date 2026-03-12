@@ -55,6 +55,8 @@ for j in range(n_cols):
         gplayers  = scene.math_anim_gplayers
         gp_obj = bpy.data.objects.get(gpobjects.gp_object)
         gp_layer = gp_obj.data.layers.get(gplayers.gp_layer)
+        # hide axis
+        vb.gpencil_layer_nodes[gp_obj['math_anim_obj']][f'{gp_layer.name}.axis'].inputs['Mute Layer'].default_value = True
         anim_node = vb.formula_anim_nodes['plotter_anim'][gp_obj['math_anim_obj']][gp_layer.name]['transform'][0]
         translate_node = anim_node.node_tree.nodes['Translate Instances']
         translate_node.inputs['Local Space'].default_value = False
