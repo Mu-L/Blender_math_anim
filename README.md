@@ -41,7 +41,7 @@ Please consider supporting the project if you like it and want to see it grow ‚ù
 
 **New features in the paid version:**
 - Preset light/color flow animations
-- Random transform animations (rotation, scaling, offset)
+- Preset random transform animations (rotation, scaling, offset)
 
 ## Overview
 The main purpose of this addon is to provide an easy and straightfoward but powerful and fancy tool to make 
