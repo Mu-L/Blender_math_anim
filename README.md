@@ -13,15 +13,15 @@ with Blender, the unleashing power will enable you amaze the world.
 
 If you like the project, please give me a star! ⭐
 
-#### ~~Blender 4.4 release at 100 ⭐~~ ✅
-#### Blender 5.0 release at **200 ⭐**
+#### ~~Version for Blender 4.4 release at 100 ⭐~~ ✅
+#### Version for Blender 5.0 release at **200 ⭐**
 
 Share to unlock early releases 😏
 
 ### 🎉 Thanks for 100 ⭐!
 
 **Thanks everyone for the 100 ⭐ even before seeing the product!**
-The **Blender 4.4 version is now released**, and the **Blender 5.0 version is on the way**.
+The **version for Blender 4.4 is now released**, and the **version for Blender 5.0 is on the journey to release when at 200 ⭐**.
 If you think it's cool, please share it with others!
 
 ---
