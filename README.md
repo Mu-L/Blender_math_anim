@@ -10,7 +10,38 @@ creativity. It is very intuitive to use for those who don't have code based skil
 with Blender, the unleashing power will enable you amaze the world.
 
 If you like the project, please give me a star! ⭐
-#### **Version for Blender 4.4 will be released at 100 ⭐, and for Blender 5.0 at 200 ⭐.  Share to unlock early releases** 😏 
+
+#### ~~Blender 4.4 release at 100 ⭐~~ ✅
+#### Blender 5.0 release at **200 ⭐**
+
+Share to unlock early releases 😏
+
+### 🎉 Thanks for 100 ⭐!
+
+**Thanks everyone for the 100 ⭐ even before seeing the product!**
+The **Blender 4.4 version is now released**, and the **Blender 5.0 version is on the way**.
+If you think it's cool, please share it with others!
+
+---
+
+### 💡 Free vs Paid Version
+
+The **free version is already powerful and should be enough for most people**.
+
+I also provide the **latest version with experimental and new features** on
+[Gumroad](https://mhstar.gumroad.com/l/xtadbg).
+
+The paid version will continue to receive:
+
+- New features
+- Compatibility updates for the latest Blender versions
+- Experimental tools
+
+Please consider supporting the project if you like it and want to see it grow ❤️
+
+**New features in the paid version:**
+- Preset light/color flow animations
+- Random transform animations (rotation, scaling, offset)
 
 ## Overview
 The main purpose of this addon is to provide an easy and straightfoward but powerful and fancy tool to make 
