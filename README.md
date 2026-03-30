@@ -41,9 +41,13 @@ The paid version will continue to receive:
 
 Please consider supporting the project if you like it and want to see it grow ❤️
 
-**New features in the paid version:**
+**New features in lastest paid version:**
 - Preset light/color flow animations
 - Preset random transform animations (rotation, scaling, offset)
+- Many preset curve animations (wiggle, shake, bounce, etc...)
+- Now support branch ploting for parameter and ODE functionst
+    - t vs x, y, z, for ODE and parameter functions
+    - (u, v) vs x, y, z for parameter functions
 
 ## Overview
 The main purpose of this addon is to provide an easy and straightfoward but powerful and fancy tool to make 
