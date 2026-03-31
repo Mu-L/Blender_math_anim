@@ -44,7 +44,8 @@ Please consider supporting the project if you like it and want to see it grow ‚ù
 **New features in lastest paid version:**
 - Preset light/color flow animations
 - Preset random transform animations (rotation, scaling, offset)
-- Many preset curve animations (wiggle, shake, bounce, etc...)
+- Many preset curves (wiggle, shake, bounce, etc...) for anim curve to use
+  |![preset_curves00](resources/preset_curves00.png) | ![preset_curves01](resources/preset_curves01.png)|
 - Now support branch ploting for parameter and ODE functionst
     - t vs x, y, z, for ODE and parameter functions
     - (u, v) vs x, y, z for parameter functions
