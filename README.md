@@ -51,6 +51,12 @@ Please consider supporting the project if you like it and want to see it grow ‚ù
 - Now support branch ploting for parameter and ODE functionst
     - t vs x, y, z, for ODE and parameter functions
     - (u, v) vs x, y, z for parameter functions
+    - or you can compose your own, like x*y, x+y+z, etc...
+
+- New ODE solvers with advanced `stop` feature from package [pydiffsol](https://github.com/martinjrobins/diffsol) which is a wrapper of [diffsol](https://github.com/martinjrobins/diffsol)
+    - Explicit and linearly implicit functions of first order ODEs.
+    - The `stop` feature allows you to stop the solver when certain conditions are met, and you can reset the state at the `stop` point to make the solver continue, which is very useful for simulating real world problems, like bouncing ball, etc...
+    - Matrix formulation of ODEs will be supported in the future.
 
 ## Overview
 The main purpose of this addon is to provide an easy and straightfoward but powerful and fancy tool to make 
