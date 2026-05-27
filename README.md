@@ -57,6 +57,8 @@ Please consider supporting the project if you like it and want to see it grow �
     - Explicit and linearly implicit functions of first order ODEs.
     - The `stop` feature allows you to stop the solver when certain conditions are met, and you can reset the state at the `stop` point to make the solver continue, which is very useful for simulating real world problems, like bouncing ball, etc...
     - Matrix formulation of ODEs will be supported in the future.
+- Support complex functions plotting, which is very useful for visualizing complex analysis problems. The real part, imaginary part, magnitude and phase can be plotted separately or together with different colors.
+- Support self iteration functions plotting, which is very useful for visualizing fractals and chaos problems. The iteration process can be animated to show the convergence or divergence of the function.
 
 ## Overview
 The main purpose of this addon is to provide an easy and straightfoward but powerful and fancy tool to make 
@@ -208,6 +210,11 @@ And you can add preset animations to the plotting.
 * Improve formula generation performance.
 * More preset animations.
 
+## Future implementation 
+* Live update of math formula when you edit the formula text 
+    * Plan to take advantage of the typst package to achieve this. 
+* Complete documentations and APIs
+
 
 ## Tutorials
 Check my tutorials for detailed explanation on YouTube.
@@ -217,11 +224,6 @@ Check my tutorials for detailed explanation on YouTube.
 | [![Tutorial -- Overview](https://img.youtube.com/vi/6Ml6nkW8yKk/hqdefault.jpg)](https://youtu.be/6Ml6nkW8yKk) | [![Tutorial -- Function Plotting](https://img.youtube.com/vi/6QsGyOwBRRM/hqdefault.jpg)](https://youtu.be/6QsGyOwBRRM) | [![Tutorial -- Formula Generation](https://img.youtube.com/vi/UrocI9kgmuQ/hqdefault.jpg)](https://youtu.be/UrocI9kgmuQ) |
 | Tutorial -- Free Drawing | Tutorial -- Morphing | |
 | [![Tutorial -- Free Drawing](https://img.youtube.com/vi/zeyOdYxH2f8/hqdefault.jpg)](https://youtu.be/zeyOdYxH2f8) | [![Tutorial -- Morphing](https://img.youtube.com/vi/jnUytybWhrc/hqdefault.jpg)](https://youtu.be/jnUytybWhrc) | |
-
-Check my social posts
-| TikTok [@math_flow7](https://www.tiktok.com/@math_flow7) | BiliBili [@罗刹国落选村花](https://b23.tv/KdlEALL) | |
-|---------|---------|---------|
-| <a href="https://www.tiktok.com/@math_flow7"><img src="resources/tiktok_accountqrcode.JPG" width="150" alt="TikTok QR"></a>&nbsp;&nbsp;&nbsp; | <a href="https://b23.tv/KdlEALL"><img src="resources/bilibili_accountqrcode.JPG" width="150" alt="BiliBili QR"></a> | |
 
 ## 💖 Support
 
