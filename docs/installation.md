@@ -2,10 +2,10 @@
 
 ## 1. Requirements
 
-- Blender version 4.4 or 5.0
-    - Blender 4.5 doesn't work due to its internal bugs
+- Blender version 4.4, 5.0, and above are supported
+    - I skip release the version for Blender 4.5 due to Blender 4.5 has internal bugs
 - Supports macOS, Windows, Linux
-- It will requires optex for rendering formulas (optional)
+- It will requires [optex](https://github.com/olsak/OpTeX) for rendering formulas (optional)
     - Make sure `optex` command is available in your system PATH
     - If you can run `optex` from a terminal, you're good to go.
 
@@ -29,11 +29,14 @@
 Click **Add-ons** then search **Math Anim**, expand it. 
 
 1. The fonts path libraries are necessary unless you don't use the formula part
-    * Only `.ttf` and `.otf` fonts are supported, if your PDF files are compiled with other font types, like latex with 
-`.pfb` fonts (they are so outdated), it will use Blender default font instead.
-    * All the needed python packages are bundled with the add-on except the `OpTex` which doesn't have a python package.
-      - [OpTeX](https://github.com/olsak/OpTeX?tab=readme-ov-file) is just an latex engine (like lualatex, xelatex), it only supports modern `.ttf` and `.otf` fonts, it's optianl.
-      - You can use [Typst](https://github.com/typst/typst) which is also an modern typesetting engine by only supporting `.ttf` and `.otf` fonts and the `Typst` is bundled with this add-on.
+    * Only `.ttf` and `.otf` fonts are supported, if your PDF files are compiled with other font types, like latex 
+    with `.pfb` fonts (they are so outdated), it will use Blender default font instead.
+    * All the needed python packages are bundled with the add-on except the `OpTex` which doesn't have a python 
+    package.
+      - [OpTeX](https://github.com/olsak/OpTeX?tab=readme-ov-file) is just an latex engine (like lualatex, 
+      xelatex), it only supports modern `.ttf` and `.otf` fonts, it's optianl.
+      - You can use [Typst](https://github.com/typst/typst) which is also an modern typesetting engine by only 
+      supporting `.ttf` and `.otf` fonts and the `Typst` is bundled with this add-on.
       - If you installed `OpTex`, make sure it's in your system PATH:
         - It is in the PATH if you can run `optex` from a terminal, for **Windows**, **MacOS**, and **Linux**.
         - For both `Typst` and `OpTex`, check their documentations for their free available fonts to use.
