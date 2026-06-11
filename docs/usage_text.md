@@ -19,6 +19,7 @@ You can create formula using Typst or OpTeX or PDF.
 2. Create formula.
     - Click `Create Formula` button to create formula. 
 3. Adjust settings.
+    - You can adjust the settings of formula, such as *Curve Radius*, *color* and *Font* which are for majority of formulas, go to `Individual Settings` or `Group Settings` to change particular part of the formula. 
 
 ## Animating Formulas
 - Preset animations
