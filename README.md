@@ -225,6 +225,9 @@ Check my tutorials for detailed explanation on YouTube.
 | Tutorial -- Free Drawing | Tutorial -- Morphing | |
 | [![Tutorial -- Free Drawing](https://img.youtube.com/vi/zeyOdYxH2f8/hqdefault.jpg)](https://youtu.be/zeyOdYxH2f8) | [![Tutorial -- Morphing](https://img.youtube.com/vi/jnUytybWhrc/hqdefault.jpg)](https://youtu.be/jnUytybWhrc) | |
 
+## Documentation
+The [documentation](https://westneighbor.github.io/Blender_math_anim/) is in progress. 
+
 ## 💖 Support
 
 If it’s useful to you, please consider support its development by purchasing any of my paid products at [Gumroad](https://mhstar.gumroad.com/l/xtadbg).
