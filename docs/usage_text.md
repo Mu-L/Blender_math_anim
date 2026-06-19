@@ -1,6 +1,15 @@
 # Formula Generating and Animating
 
-You can create formula using Typst or OpTeX or PDF.
+The underlying workflow for formula/text typesetting is extracted from PDF, and then the layout is reconstructed using geometry nodes. The layout is preserved as much as possible, but there are some cavets to be aware of: 
+- For large formula/text body, it can be slow since a lot of geometry nodes are generated. 
+- There are three types of objects in PDF, char, stroke, and fill, and some math symbols can be a combination of 
+  them, for example, a sqrt is composed of stroke and char, and so the arrangement in the geometry nodes, you need 
+  to adjust the settings of both parts, e.g., change the positions, to make it look correct.
+  - The stroke and fill are for drawing shapes, and the char is for text. The fill is not used in default, you need 
+    to enable it in the settings if you want to use it. 
+- Two PDF generating engines, `optex` and `typst`, are supported for quick and simple formula/text generating. They 
+  will be compiled to PDF internally, and then the layout will be extracted from the PDF. For complex layout, for 
+  example, change different fonts for different formula/text, producing PDF locally and use the PDF may be better. 
 
 1. Choose formula source:
    - `optex code` or `typst code`
